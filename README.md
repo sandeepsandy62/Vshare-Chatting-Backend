@@ -1,9 +1,22 @@
 # Vshare-Chatting-Backend
 Implementing chatting as a separate microservice . Using Go Lang 🤓
 
-## DB Diagram
+# Contribution Guidelines
+
+Thank you for considering contributing to our project! Before you get started, please read through these guidelines to ensure a smooth and collaborative development process.
+
+## Observer Pattern Implementation
+
+### Overview
+
+Our microservice utilizes the Observer design pattern for certain functionalities. When contributing code related to the Observer pattern, please adhere to the following guidelines:
+
+### DB Diagram
 https://dbdiagram.io/d/Individual-Chatting-digram-6572001656d8064ca099a2c9
 
+### Folder Structure
+
+Ensure that your code follows the recommended folder structure for the Observer pattern:
 
 # cmd/
 
@@ -47,6 +60,8 @@ Vendor directory for dependencies.
 
 - **.gitignore:** Specifies files and directories that should be ignored by Git.
 - **README.md:** Project documentation.
+
+
 
 # Other Directories
 

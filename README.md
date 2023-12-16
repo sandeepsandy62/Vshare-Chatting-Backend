@@ -8,13 +8,6 @@ Thank you for considering contributing to our project! Before you get started, p
 1. **While implementing, follow the Observer Pattern:**
 
 
-
-
-
-### Overview
-
-Our microservice utilizes the Observer design pattern for certain functionalities. When contributing code related to the Observer pattern, please adhere to the following guidelines:
-
 ### DB Diagram
 https://dbdiagram.io/d/Individual-Chatting-digram-6572001656d8064ca099a2c9
 

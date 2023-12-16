@@ -4,8 +4,7 @@ Implementing chatting as a separate microservice . Using Go Lang 🤓
 # Contribution Guidelines
 
 Thank you for considering contributing to our project! Before you get started, please read through these guidelines to ensure a smooth and collaborative development process.
-
-## Observer Pattern Implementation
+1 . while implementing follow the Observer Pattern
 
 ### Overview
 

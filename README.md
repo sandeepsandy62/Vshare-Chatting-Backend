@@ -36,5 +36,5 @@ Contributions are welcome! Feel free to open issues or pull requests.
 Below is the database diagram illustrating the structure of our chat app backend:
 
 
-<a href="https://dbdiagram.io/d/Individual-Chatting-digram-6572001656d8064ca099a2c9" target="_blank"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Ddatabase&psig=AOvVaw3eAYHUbOA5FoevCZCK_J5M&ust=1702903794710000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOiy9ZHBloMDFQAAAAAdAAAAABAD" width="400"></a>
+<a href="https://dbdiagram.io/d/Individual-Chatting-digram-6572001656d8064ca099a2c9" target="_blank">DataBase Design</a>
 

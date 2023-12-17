@@ -1,0 +1,66 @@
+/chat-app-backend
+│
+├── /auth-service
+│   ├── main.go
+│   ├── Dockerfile
+│   ├── service.go
+│   ├── handlers/
+│   ├── models/
+│   └── ...
+│
+├── /chat-service
+│   ├── main.go
+│   ├── Dockerfile
+│   ├── service.go
+│   ├── handlers/
+│   ├── models/
+│   └── ...
+│
+├── /group-service
+│   ├── main.go
+│   ├── Dockerfile
+│   ├── service.go
+│   ├── handlers/
+│   ├── models/
+│   └── ...
+│
+├── /video-call-service
+│   ├── main.go
+│   ├── Dockerfile
+│   ├── service.go
+│   ├── handlers/
+│   ├── models/
+│   └── ...
+│
+├── /common
+│   ├── utils/
+│   ├── constants/
+│   ├── database/
+│   └── ...
+│
+├── /migrations
+│   ├── 001_auth_service.sql
+│   ├── 002_chat_service.sql
+│   ├── 003_group_service.sql
+│   └── ...
+│
+├── /scripts
+│   ├── deploy.sh
+│   ├── seed-data.sh
+│   └── ...
+│
+├── docker-compose.yml
+├── kubernetes/
+│   ├── deployment/
+│   │   ├── auth-service-deployment.yaml
+│   │   ├── chat-service-deployment.yaml
+│   │   ├── group-service-deployment.yaml
+│   │   └── ...
+│   ├── service/
+│   │   ├── auth-service-service.yaml
+│   │   ├── chat-service-service.yaml
+│   │   ├── group-service-service.yaml
+│   │   └── ...
+│   └── ...
+│
+└── README.md

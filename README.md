@@ -34,5 +34,5 @@ Contributions are welcome! Feel free to open issues or pull requests.
 ### Database Diagram
 
 Below is the database diagram illustrating the structure of our chat app backend:
-[![Database Diagram]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fillustoon.com%2F%3Fid%3D7826&psig=AOvVaw3rgRCk8eiQajBU4LaJjuqv&ust=1702903468915000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjK3_a_loMDFQAAAAAdAAAAABAY]))]([https://dbdiagram.io/d/Individual-Chatting-digram-6572001656d8064ca099a2c9])
+[![Database Diagram]([https://dbdiagram.io/d/Individual-Chatting-digram-6572001656d8064ca099a2c9])
 

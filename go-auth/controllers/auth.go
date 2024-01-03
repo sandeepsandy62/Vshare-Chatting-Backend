@@ -19,7 +19,7 @@ var jwtKey = []byte("my_secret_key")
 func Login(c *gin.Context){
 	var user models.User
 
-	if err := c.ShouldBindJSON(&user); err != nill {
+	if err := c.ShouldBindJSON(&user); err != nil {
 
 		//Context.JSON will write the JSON data to the response body
 		/* 
@@ -49,12 +49,13 @@ func Login(c *gin.Context){
 
 	expirationTime := time.Now().Add(5 * time.Minute)
 	
+	
 
 	claims := &models.Claims{
 		Role : existingUser.Role, 
-		StandardClaims : jwt.RegisteredClaims{
+		RegisteredClaims : jwt.RegisteredClaims{
 			Subject : existingUser.Email , 
-			ExpiresAt : jwt.NumericDate(expirationTime.Unix()),
+			ExpiresAt : jwt.NewNumericDate(expirationTime),
 		},
 	}
 
@@ -63,11 +64,11 @@ func Login(c *gin.Context){
 	tokenString , err := token.SignedString(jwtKey)
 
 	if err != nil {
-		c.JSON(500 , gin.H{"error" , "could not generate token"})
+		c.JSON(500 , gin.H{"error" : "could not generate token"})
 		return 
 	}
 
-	c.SetCookie("token",tokenString,int(expirationTime.Unix()),"/",false,true)
+	c.SetCookie("token",tokenString,int(expirationTime.Unix()),"/","localhost",false,true)
 	c.JSON(200,gin.H{"success":"user logged in"})
 }
 

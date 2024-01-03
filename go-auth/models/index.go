@@ -27,7 +27,7 @@ func InitDB(cfg Config) {
 	//config object also contains some extra fields
 	//then convert the config object to dialector and pass it to the gorm.Open
 	//gorm.Open returns db pointer and error
-	db, err = gorm.Open(postgres.Open(dsn))
+	db, err := gorm.Open(postgres.Open(dsn))
 
 	if err != nil {
 		panic(err)
